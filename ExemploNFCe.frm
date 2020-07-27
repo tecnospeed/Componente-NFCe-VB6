@@ -64,41 +64,25 @@ Begin VB.Form FrmExemplo
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Height          =   1815
+         Height          =   1335
          Left            =   2880
          TabIndex        =   27
-         Top             =   1920
+         Top             =   2400
          Width           =   2655
-         Begin VB.CommandButton Command2 
-            Caption         =   "12. Imprimir"
-            Height          =   315
-            Left            =   120
-            TabIndex        =   35
-            Top             =   1320
-            Width           =   2415
-         End
-         Begin VB.CommandButton Command1 
-            Caption         =   "9. Prever"
-            Height          =   315
-            Left            =   120
-            TabIndex        =   34
-            Top             =   240
-            Width           =   2415
-         End
          Begin VB.CommandButton btnExporta 
-            Caption         =   "11. Exportar para PDF"
+            Caption         =   "10. Exportar para PDF"
             Height          =   315
             Left            =   120
             TabIndex        =   29
-            Top             =   960
+            Top             =   720
             Width           =   2415
          End
          Begin VB.CommandButton btnVisualizar 
-            Caption         =   "10. Visualizar"
+            Caption         =   "9. Visualizar"
             Height          =   315
             Left            =   120
             TabIndex        =   28
-            Top             =   600
+            Top             =   360
             Width           =   2415
          End
       End
@@ -236,7 +220,7 @@ Begin VB.Form FrmExemplo
          Left            =   120
          TabIndex        =   32
          Top             =   480
-         Width           =   495
+         Width           =   375
       End
       Begin VB.TextBox edtProtocolo 
          Height          =   285
